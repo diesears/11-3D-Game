@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sign.obj-7185e1802053071729b455f80f8611aa.mesh"
+
+[deps]
+
+files=[ "res://.import/sign.obj-7185e1802053071729b455f80f8611aa.mesh" ]
+
+source_file="res://Assets/kenney_platformerkit/Models/OBJ format/sign.obj"
+dest_files=[ "res://.import/sign.obj-7185e1802053071729b455f80f8611aa.mesh", "res://.import/sign.obj-7185e1802053071729b455f80f8611aa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
