@@ -13,7 +13,7 @@ albedo_color = Color( 0.286275, 0.313726, 0.341176, 1 )
 material = SubResource( 1 )
 size = Vector2( 200, 200 )
 
-[sub_resource type="ConvexPolygonShape" id=5]
+[sub_resource type="ConvexPolygonShape" id=3]
 points = PoolVector3Array( 100, 0, 100, -100, 0, 100, 100, 0, -100, -100, 0, -100 )
 
 [sub_resource type="DynamicFont" id=4]
@@ -32,7 +32,7 @@ mesh = SubResource( 2 )
 material/0 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground"]
-shape = SubResource( 5 )
+shape = SubResource( 3 )
 
 [node name="Crate" parent="." groups=[
 "Crate",
